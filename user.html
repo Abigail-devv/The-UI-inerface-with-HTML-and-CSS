@@ -9,19 +9,24 @@
 <body>
   <div class="form-container">
     <form>
-      <h2>Get Started</h2>
-      <label for="name">Name</label>
-      <input type="text" id="name" placeholder="Enter your name" required>
-      
-      <label for="email">Email</label>
-      <input type="email" id="email" placeholder="Enter your email" required>
-      
-      <label for="password">Password</label>
-      <input type="password" id="password" placeholder="Create password" required minlength="8">
-      
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Create password" required minlength="8">
+        <small>Must Be At Least 8 Characters</small>
+      </div>
       <button type="submit">Get Started</button>
     </form>
   </div>
 </body>
 </html>
+
+
  
